@@ -1,0 +1,31 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conc_sce2_btn1 button
+{
+    padding: 10px 20px;
+    background-color: #1370B5;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.conc_sce2_btn1 button:hover
+{
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    color: black;
+
+}
+.contact_icon i
+{
+    font-size: 40px;
+    color: #1370B5;
+}
+.bg_color
+{
+    background-color: #f5f5f5;
+}

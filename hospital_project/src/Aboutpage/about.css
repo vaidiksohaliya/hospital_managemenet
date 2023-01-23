@@ -1,0 +1,244 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 h2 h3 h4 h5 h6
+{
+    margin: 0;
+    padding: 0;
+    font-family: none;
+}
+p
+{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    max-width: 1140px;
+    margin: auto;
+}
+/* -------------------------------About_sec1 Start----------------------------- */
+
+.section_y
+{
+    padding-top:100px;
+    padding-bottom:100px;
+}
+.section1_bg
+{
+    background-image: url(http://ary-themes.com/html/bold_touch/medicoz/images/icons/pattern-2.png);
+    background-size: 100%;
+    position:top center;
+}
+.img_position
+{
+    position: relative;
+}
+.img_content h1
+{
+    font-size: 50px;
+    color:#3170B5;
+    text-transform: capitalize;
+    position: absolute;
+    left:70%;
+    top: 20%;
+}
+.img_set
+{
+    position:relative;
+
+}
+.img_set1
+{
+    position: absolute;
+    left:5%;
+    top:0%;
+    z-index: -1;
+}
+ .img_set2
+{
+    z-index: 999;
+} 
+.img_set3
+{
+
+    z-index:111;
+    
+} 
+
+/* -------------------------------About_sec1 End----------------------------- */
+/* -------------------------------About_sec2 Start----------------------------- */
+.section2_y
+{
+    padding: 50px;
+    padding-bottom: 50px;
+}
+.section2_bg
+{
+    background-image: url(http://ary-themes.com/html/bold_touch/medicoz/images/icons/pattern-4.png);
+    background-size: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 0 30px rgb(0 0 0 / 6%);
+
+    
+}
+.box_1 i
+{
+    font-size:70px;
+    color: #3170B5;
+
+}
+.box_1 p
+{
+    color: #888;
+    margin-top: 10px;
+}
+
+/* -------------------------------About_sec2 End----------------------------- */
+/* -------------------------------About_sec3 Start--------------------------- */
+.section3_bg
+{
+    background-image: url(http://ary-themes.com/html/bold_touch/medicoz/images/background/2.jpg);
+    background-image: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.main_form
+{
+    padding: 10px 20px;
+    background-color:#ffffff;
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+    border-radius:20px;
+}
+.main_form input
+{
+    width:100%;
+    padding: 10px;
+    border: 1px solid #E1E1E1E1;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.main_form input[type=submit]
+{
+    background-color: #3170B5;
+    width:40%;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+    transition: 0.3s;
+}
+.main_form input[type=submit]:hover
+{
+    border:1px solid #3170B5;
+    background-color: transparent;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.sec_box1 h6
+{
+    color: #3170B5;
+}
+.sec_box1 h5
+{
+    color: #888;
+}
+.sec_box1 h2
+{
+    color: #888;
+}
+.sec_box1_h1
+{
+    color: #3170B5;
+}
+.sec_box1 i
+{
+    color: #3170B5;
+}
+/* -------------------------------About_sec3 End--------------------------- */
+/* -------------------------------About_sec4 Start------------------------- */
+.section4_bg
+{
+    background-image: url(http://ary-themes.com/html/bold_touch/medicoz/images/icons/pattern-1.png);
+    background-size:100%;
+    background-color: #fefefe;
+    
+}
+.line
+{
+    position: relative;
+    width: 100%;
+    height: 5px;
+    background-color:#eeeeee;
+    margin-bottom: 30px;   
+}
+.in_line
+{
+    width: 55%;
+    background-color:#3170B5;
+    height: 5px;
+}
+.in_line2
+{
+    width: 72%;
+    background-color: #3170B5;
+    height: 5px;
+}
+.in_line3
+{
+    width: 88%;
+    background-color: #3170B5;
+    height: 5px;
+}
+.in_line4
+{
+    width: 78%;
+    background-color: #3170B5;
+    height: 5px;
+}
+.sec4_btn1
+{
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.box_shodo
+{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 20px;
+}
+
+
+/* -------------------------------About_sec4 End------------------------- */
+/* -------------------------------About_footer Start--------------------- */
+.footer_soc_i
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height:40px;
+    background-color: #0F2027;
+    /* display: inline-block; */
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 5px;
+    color: white;
+}
+
+.footer_soc_i:hover
+{
+    background-color: white;
+    color: #0082c8;
+}
+
+/* --------------------------------------------About_footer End-------- */
+
